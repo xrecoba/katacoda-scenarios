@@ -1,0 +1,13 @@
+Blazemeter
+
+docker pull blazemeter/taurus
+
+Copy taurus-test.yml
+docker run -it --rm -v $(pwd):/bzt-configs blazemeter/taurus taurus-test.yml
+
+Website to test?
+https://github.com/dotnet-architecture/eShopOnWeb.git
+
+To run the website:
+docker-compose build
+docker-compose up

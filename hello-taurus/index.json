@@ -9,6 +9,11 @@
       "text": "step1.md",
       "code": "setup.sh"
     }],
+    "assets": {
+        "host01": [
+            {"file": "taurus-test.yml", "target": "/usr/local/taurus-test/", "chmod": "+r"}
+        ]
+    },
     "intro": {
       "text": "intro.md",
       "credits": "",

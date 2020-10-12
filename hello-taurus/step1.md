@@ -6,5 +6,8 @@ This is an _example_ of creating a scenario and running a **command**
 
 `echo 'Hello World'`{{execute}}
 
+`docker run -p 3001:3001 -d --network yb-net --name yugastore yugabytedb/yugastore` {{execute}} 
+
 Let's call blazemeter from here
 `docker run -it --rm -v $(pwd):/bzt-configs blazemeter/taurus taurus-test.yml`{{execute}}
+

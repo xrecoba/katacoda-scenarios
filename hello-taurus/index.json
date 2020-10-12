@@ -25,7 +25,11 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
+    "dashboards": [
+      {"name": "URL", "href": "https://www.katacoda.com"},
+      {"name": "Port 80", "port": 80},
+      {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/", "port": 8000}]
   },
   "backend": {
     "imageid": "ubuntu:2004"

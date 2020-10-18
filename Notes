@@ -3,6 +3,7 @@ Blazemeter
 docker pull blazemeter/taurus
 
 Copy taurus-test.yml
+From file folder execute:
 docker run -it --rm -v $(pwd):/bzt-configs blazemeter/taurus taurus-test.yml
 
 Website to test?
@@ -11,3 +12,13 @@ https://github.com/dotnet-architecture/eShopOnWeb.git
 To run the website:
 docker-compose build
 docker-compose up
+
+
+Gatsby:
+https://github.com/jamstack-cms/jamstack-ecommerce
+git clone https://github.com/jamstack-cms/jamstack-ecommerce
+cd jamstack-ecommerc
+yarn
+
+npm install -g gatsby-cli
+gatsby develop

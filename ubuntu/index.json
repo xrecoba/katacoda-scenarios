@@ -1,6 +1,6 @@
 {
-  "title": "Hello World - Taurus Scenario",
-  "description": "Your First Test With Taurus",
+  "title": "Hello World - Running a website",
+  "description": "Next.js website",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {

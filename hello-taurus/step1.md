@@ -12,5 +12,5 @@ Let's call blazemeter from here
 `docker run -it --rm -v $(pwd):/bzt-configs blazemeter/taurus taurus-test.yml`{{execute}}
 
 
-https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com
 

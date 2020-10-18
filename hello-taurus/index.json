@@ -11,7 +11,7 @@
     }],
     "assets": {
         "host01": [
-            {"file": "taurus-test.yml", "target": "/usr/local/taurus-test/", "chmod": "+r"}
+            {"file": "taurus-test.yml", "target": "/usr/local/web-test-automation/", "chmod": "+r"}
         ]
     },
     "intro": {
@@ -26,7 +26,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
-    "uieditorpath": "/usr/local/taurus-test",
+    "uieditorpath": "/usr/local/web-test-automation",
     "showide": true,
     "idePort": 23000,
     "dashboards": [

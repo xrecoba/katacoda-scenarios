@@ -11,7 +11,7 @@
     }],
     "assets": {
         "host01": [
-            {"file": "taurus-test.yml", "target": "/usr/local/taurus-test/", "chmod": "+r"}
+            {"file": "taurus-test.yml", "target": "/usr/local/web-test-automation/load-test/", "chmod": "+r"}
         ]
     },
     "intro": {

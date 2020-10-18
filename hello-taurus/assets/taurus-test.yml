@@ -11,4 +11,6 @@ scenarios:
     requests:
     - http://blazedemo.com/
     - http://blazedemo.com/vacation.html
-    - http://localhost:3001
+    - http://localhost:3000
+    - http://localhost:3000/store
+    - http://localhost:3000/products/plant2/
